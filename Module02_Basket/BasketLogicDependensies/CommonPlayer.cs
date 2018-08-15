@@ -17,6 +17,7 @@ namespace BasketLogicDependensies
 
 		public override int Attempt()
 		{
+			int randomNumber = random.Next(40, 140);
 			return randomNumber;
 		}
 	}
