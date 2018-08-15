@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasketLogicDependensies
+namespace BasketPlayers
 {
 	class NotePlayer: BasePlayer
 	{
@@ -15,9 +15,9 @@ namespace BasketLogicDependensies
 			this.Type = type;
 		}
 
-		public override int Attempt()
-		{
-			return randomNumber;
-		}
+		//public override int Attempt()
+		//{
+		//	return randomNumber;
+		//}
 	}
 }
