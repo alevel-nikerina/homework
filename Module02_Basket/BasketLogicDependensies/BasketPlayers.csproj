@@ -44,6 +44,13 @@
     <Compile Include="CommonPlayer.cs" />
     <Compile Include="NotePlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UberPlayer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BasketLogic\BasketLogic.csproj">
+      <Project>{BFDA4F21-1281-4E1A-A67D-3D10A4480565}</Project>
+      <Name>BasketLogic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,16 +10,15 @@ namespace BasketPlayers
 	{
 		public string Type;
 
-
 		public CommonPlayer(string name, string type) : base(name)
 		{
 			this.Type = type;
 		}
 
-		//public override int Attempt()
-		//{
-		//	//int randomNumber = random.Next(40, 140);
-		//	return randomNumber;
-		//}
-	}
+        //public override int MakeAttempt()   // не оверрайдим, потому что в метоже ничего не меняется
+        //{
+        //    int randomNumber = random.Next(40, 140);
+        //    return randomNumber;
+        //}
+    }
 }
