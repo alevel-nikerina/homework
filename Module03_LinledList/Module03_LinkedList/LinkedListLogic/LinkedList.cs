@@ -11,7 +11,7 @@ namespace LinkedListLogic
 		public Node Head { get ; set ; }
 		public Node Tail { get ; set ; }
 		public Node CurrentNode { get ; set ; }
-
+		
 		int nodeCandidateValue; // тут должно быть рандомное число или вводить из консоли
 
 		public void Add(Node node)
@@ -28,10 +28,10 @@ namespace LinkedListLogic
 				Tail = new Node(nodeCandidateValue);
 			}
 
-			else if (Head != null && CurrentNode != null && Tail != null)
-			{
-				numbers.Remove(nodeCandidateValue);
-			}
+			//else if (Head != null && CurrentNode != null && Tail != null)
+			//{
+			//	numbers.Remove(nodeCandidateValue);
+			//}
 		}
 
 		public void OutputAllNodes()
@@ -52,7 +52,7 @@ namespace LinkedListLogic
 				}
 		}
 
-		LinkedList<int> numbers = new LinkedList<int>();
-		numbers.Add();
+		LinkedList<Node> numbers = new LinkedList<Node>();
+		
 	}
 }

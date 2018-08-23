@@ -9,7 +9,7 @@ namespace LinkedListLogic
 	public class RandomNodeValue
 	{
 		Random random = new Random();
-		public static int randomNumber;
+		public int randomNumber;
 
 		public int GenerateRandomNodeValue()
 		{
